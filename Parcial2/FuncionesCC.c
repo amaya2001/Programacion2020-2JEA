@@ -63,7 +63,7 @@ void  verificacion( Local ** pMatriz, int fil, int col ){
 	scanf( "%d", &piso );
 	printf( "Ingrese el lugar en donde se encuentra el local: " );
 	scanf( "%d", &lugar );
-	mostrarLocal( pMatriz, fil, col, piso, lugar );
+	mostrarLocal( pMatriz, fil, col, piso, lugar ); // Le manda los datos optenidos a la funcion
 }
 
 	
@@ -111,7 +111,7 @@ int promocion(){
 	printf( "=====================================\n" );
 	printf( "          FELICIDADES!!!!!           \n" );
 	printf( "=====================================\n" );
-	printf( "Tu compra fue mayor o igual a 250.000, ahora te aremos una prueba para obtener el 100 por ciento de tu compra\n" );
+	printf( "Tu compra fue mayor o igual a 250.000, ahora te aremos una prueba para obtener la totalidad de tu compra\n" );
 	printf( "Te vamos a dar un numero al azar y tines que pasarlo a binario !!\n" );
 	printf( "Numero aleatorio: %d\n", numeroAleatorio );
 	binario = recursion( numeroAleatorio );
@@ -128,20 +128,20 @@ int promocion(){
 }
 
 void ingresarVenta( Local ** pMatriz, int fil, int col ){
-	char nombreBusqueda[ 30 ];
+	char nombreBusqueda[ 30 ]; // un nombre temporal
 	int  i, j, venta, condicion = 250000, retorna;
 
 	printf( "Ingrese el nombre del local: " );
 	scanf( "%s", &nombreBusqueda );
 	for( i = 0; i < fil; i++ ){
 		for( j = 0; j < col; j++ ){
-			if( strcmp( nombreBusqueda, pMatriz[ i ][ j ].nombreLocal ) == 0 ){
+			if( strcmp( nombreBusqueda, pMatriz[ i ][ j ].nombreLocal ) == 0 ){ // Compara el nombre temporal con el nombre de local en la posicion i, j
 				printf( "Ingrese la venta realizada: " );
 				scanf( "%d", &venta );
 					if( venta >= condicion ){
 						retorna = promocion();
 						if(retorna == 1){
-							pMatriz[ i ][ j ].ventasLocal += 0;
+							pMatriz[ i ][ j ].ventasLocal += 0;// No se le suma nada ya que no gano la promocion
 							return;
 						}else{
 							pMatriz[ i ][ j ].ventasLocal += venta;
@@ -166,7 +166,7 @@ void eliminarLocal(Local ** pMatriz, int fil, int col){
 	for( i = 0; i < fil; i++ ){
 		for( j = 0; j < col; j++ ){
 			if( strcmp( pMatriz[ i ][ j ].nombreLocal, nomBusqueda ) == 0 ){
-				strcpy( pMatriz[ i ][ j].nombreLocal, " " );
+				strcpy( pMatriz[ i ][ j].nombreLocal, " " );// Se usa para sobre escribir vacio en el nombre por defecto del local
 				pMatriz[ i ][ j ].pisoLocal = 0 ;
 				pMatriz[ i ][ j ].lugarLocal = 0;
 				pMatriz[ i ][ j ].idLocal = 0;
