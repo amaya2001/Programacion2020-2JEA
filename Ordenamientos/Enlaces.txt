@@ -1,4 +1,11 @@
 
-https://youtu.be/tZiusxuo-FI
+Selección en C - Concepto -> https://youtu.be/tZiusxuo-FI
 
-https://youtu.be/IVQGhgm2b00
+
+Selección en C - Código -> https://youtu.be/IVQGhgm2b00
+
+
+QuickSort en C - Concepto -> https://youtu.be/fYqSuJ_syhA
+
+
+QuickSort en C - Código -> https://youtu.be/-OCQiGq_Vjo
