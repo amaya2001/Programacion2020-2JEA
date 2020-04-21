@@ -3,7 +3,7 @@
 int main(void){
    int opcion, posicion = 0, mesBuscar, mes, resultado, i, mesEnum, contador;
    Persona arreglo[ CAP ];
-
+   // NO estas usando el contador para nada
    do{
       opcion = menu();
       switch (opcion){

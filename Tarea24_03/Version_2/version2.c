@@ -28,7 +28,7 @@ struct persona llenarPersona(){
         fflush(stdin);
 
 	printf("Ingrese un nombre: ");
-	scanf("%s", &persona.nombre); 
+	scanf("%s", &persona.nombre);  // NO necesita el &
 	printf("Ingrese el dia de nacimiento: ");
 	scanf("%d", &persona.diaNacimiento); 
 	printf("ingrese el mes de nacimiento: ");
@@ -60,6 +60,7 @@ void llenarMatriz(persona_t matrizAno[ 12 ][ 5 ], int contador[ 12 ]){
   	return;
 }
 
+// Ojo la identación no se ve bn
 void mostrarMatriz(persona_t matrizAno[12][5], int contador[12]){   
 	int i, j;
 
@@ -76,7 +77,7 @@ void mostrarMatriz(persona_t matrizAno[12][5], int contador[12]){
 
 int mostrarMenu() {
 	int opcion = 0,resultado;
-
+	// Luisa: No estas usando para nada la variable resultado
 	printf("\nOpciones que puedes realizar\n");
 	printf("1) Agregar un usuario\n");
 	printf("2) Buscar por mes de nacimiento\n");
@@ -93,7 +94,7 @@ int main(){
 	int opcion;
 	persona_t matrizano[12][5]={};
 	int contador[12] = {};
-   
+   // Faltan funcionalidades, falta el uso de enums y recursión
 	do{
   		opcion = mostrarMenu();
   		switch (opcion) {
