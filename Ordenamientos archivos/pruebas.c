@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>// Uso time.h en el rand() para los datos aleatorios, para el __DATE__ y __TIME__.
-#define CAP 100 // La capacidad que tienen todos los arreglos declarada como constante para un rapido cambio de valor.
+#define CAP 100000 // La capacidad que tienen todos los arreglos declarada como constante para un rapido cambio de valor.
+
+	time_t start, end;
+
 
 int menu(){// Este menu sirve para que el usuario elija el tipo de dato de desea, de forma aleatoria  o en orden.
 	int dato;
@@ -162,19 +165,30 @@ void leerArregloEnterosArchivoBinario(FILE *pFileDatos, FILE *pFileOrdenados, in
 	int arregloOrdenadosBubbleSort[tamArreglo];
 	
 	printf( "Leyendo los datos\n" );
-	printf( "Fecha de inicio: %s, hora: %s", __DATE__, __TIME__ );
 	fread(arregloEnteroDatos, sizeof( int ), tamArreglo, pFileDatos);
  	*arregloOrdenadosQuickSort = *arregloEnteroDatos ;
 	printf( "Se inicio el metodo de seleccion\n" );
+	start = time( NULL );
         *arregloOrdenadosSeleccion = seleccion( arregloEnteroDatos, tamArreglo / sizeof( int ) );
+        end = time( NULL );
+        printf( "Tiempo de ejecucion: %.2f segundos\n", difftime( end, start ) );
 	printf( "Se inicio el metodo de burbuja\n" );
+	start = time( NULL );
         *arregloOrdenadosBurbuja = burbuja( arregloEnteroDatos, tamArreglo / sizeof( int ) );
+	end = time( NULL );
+	printf( "Tiempo de ejecucion: %.2f segundos\n", difftime( end, start ) );
 	printf( "Se inicio el metodo de bubblesort\n" );
+	start = time( NULL );
 	*arregloOrdenadosBubbleSort = bubblesort( arregloEnteroDatos, tamArreglo / sizeof( int ) );
+	end = time( NULL );
+	printf( "Tiempo de ejecucion: %.2f segundos\n", difftime( end, start ) );
 	//Se asigna a cada arreglo temporal los datos generados en guardarArregloEnterosArchivoBinario, y se le asigna lo que retorne cada funcion.  
         fwrite( arregloOrdenadosSeleccion, sizeof( int ), tamArreglo, pFileOrdenados );
 	printf( "Se inicio el metodo de quicksort\n" );
+	start = time( NULL );
         quicksort( arregloOrdenadosQuickSort, tamArreglo/sizeof( int ) );
+	end = time( NULL );
+	printf( "Tiempo de ejecucion: %.2f segundos\n", difftime( end, start ) );
         fwrite( arregloOrdenadosQuickSort, sizeof( int ), tamArreglo, pFileOrdenados );
         fwrite( arregloOrdenadosBurbuja, sizeof( int ), tamArreglo, pFileOrdenados );
 	fwrite( arregloOrdenadosBubbleSort, sizeof( int ), tamArreglo, pFileOrdenados );
