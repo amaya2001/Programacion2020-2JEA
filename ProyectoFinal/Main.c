@@ -13,6 +13,9 @@ int main( int argc, char ** argv ){
  	scanf( "%d", &filas );
 	printf( "Ingrese las columnas: ");
  	scanf( "%d", &columnas );
+	try{
+		if( filas  <= 0 || filas > CAP|| columnas > CAP || columnas <= 0 )
+			throw "Error: bad allocation ";
 	pMatriz = reservarMatriz( filas, columnas );
 	srand( time( NULL ) );// El procedimiento de apoya al rand()%
 	 
@@ -47,5 +50,9 @@ int main( int argc, char ** argv ){
 		}
 	}while( opcion != 0 || opcion > 5 ); // Las condiciones para que el ciclo continue
 	save(pMatriz, filas*columnas, argv[ 1 ]);
+	}catch(const char* dato){
+		cout << dato << endl;
+
+	}
 	return 0;
 }

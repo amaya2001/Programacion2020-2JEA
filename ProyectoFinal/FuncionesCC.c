@@ -3,10 +3,10 @@
 Local ** reservarMatriz(int fil, int col){
 	int i;
 
-        Local ** pMatriz = malloc(fil  * sizeof( Local* ));
+        Local ** pMatriz = new Local* [fil];
 	if( pMatriz != NULL ){
         	for( i = 0; i <= fil; i++ ){
-                	pMatriz[ i ] = malloc( col * sizeof( Local ) );// cada columna de la matriz dinamica va a ser un puntero de tamaño Local 
+                	pMatriz[ i ] = new Local[col];// cada columna de la matriz dinamica va a ser un puntero de tamaño Local 
 			if( pMatriz == NULL ){
 				printf( "Error al reservar" );
 				break;
@@ -28,21 +28,31 @@ tipoLocal_e tipoDelLocal(){// Enum que retorna el tipo del local.
 	printf( "4) Moda\n" );
 	printf( "Opcion: " );
    	scanf("%d", &tipo);
-
-   	return tipo;
+	try{
+		if( tipo  < 0 || tipo > 4 )
+			throw "Error: Opcion no puede ser negativo.";
+	}catch( const char* dato ){
+		cout << dato << endl;
+		printf( "Digite nuevamente\n" );
+		tipoDelLocal();
+	}
+	   	return tipo;
 }
 
 Local llenarLocal(){
-	Local localTemp;
+ 	Local localTemp;
+
         fflush( stdin );
 	int numero, opinion;
-
 	printf( "Ingrese un nombre del local: " );
 	scanf( "%s", &localTemp.nombreLocal ); 
 	printf( "Ingrese el piso del local: " );
 	scanf( "%d", &localTemp.pisoLocal ); 
 	printf( "ingrese el lugar del local: " );
 	scanf( "%d", &localTemp.lugarLocal );
+	try{
+		if( localTemp.pisoLocal  <= 0 || localTemp.lugarLocal <= 0 )
+			throw "Error: Piso o lugar no puede ser menor o igual a 0";
 	numero = 1000 + rand()%( 10001 + 1000 ); // Genera un numero aleatorio entre 1.000 y 10.000
 	localTemp.idLocal = numero; // Adiciona el numero aleatoeio que acabo de crear
 	printf( "Su id es: %d", localTemp.idLocal );
@@ -50,6 +60,8 @@ Local llenarLocal(){
 	localTemp.ventasLocal = 0; // Si se acabo de crear un local, es logico decir que sus ventas hasta hora son 0
 	printf( "Digite la cantidad de empelados a su disposicion: " );
 	scanf( "%d", &localTemp.cantEmpleadosLocal );
+		if( localTemp.cantEmpleadosLocal < 0 )
+			throw "Error: La cantidad de empleados no puede ser menor a 0";
         opinion = tipoDelLocal();
         localTemp.tipoLocal = opinion;// Adiciona el entero que retorna tipoLocal.  
         switch( opinion ){
@@ -67,8 +79,15 @@ Local llenarLocal(){
 	}
 	printf( "Digite el total de su inventario: " );
 	scanf( "%d", &localTemp.cantInventarioLocal ); // Adiciona un entero que representa el numero total del inventario del local.
-
+		if( localTemp.cantInventarioLocal < 0 )
+			throw "Error: La cantidad maxima de empleados no puede ser menor a 0";
+	
 	return localTemp;
+	}catch( const char* dato ){
+		cout << dato << endl;
+		printf( "Digite nuevamente\n" );
+		llenarLocal();
+	}
 }
 
 void guardarNuevoUsuario( Local ** pMatriz, int fil, int col, int piso, int lugar, Local * pLocal ){
@@ -86,9 +105,7 @@ void llenarMatriz( Local ** pMatriz, int fil, int col ){
 }
 
 void mostrarLocal( Local ** pMatriz, int fil, int col, int piso, int lugar ){
-	if( piso <= fil && lugar <= col ){
 	printf( "[Nombre del local: %s, Piso: %d, Lugar: %d, ID: %d, Ventas: %d, Empleados: %d, tipo: %d, Inventario: %d]", pMatriz[ piso ][ lugar ].nombreLocal, pMatriz[ piso ][ lugar ].pisoLocal, pMatriz[ piso ][ lugar ].lugarLocal, pMatriz[ piso ][ lugar ].idLocal, pMatriz[ piso ][ lugar ].ventasLocal, pMatriz[ piso][ lugar ].cantEmpleadosLocal, pMatriz[ piso ][ lugar ].tipoLocal, pMatriz[ piso ][ lugar ].cantInventarioLocal );	
-	}
 }
 
 void  verificacion( Local ** pMatriz, int fil, int col ){
@@ -97,6 +114,13 @@ void  verificacion( Local ** pMatriz, int fil, int col ){
 	scanf( "%d", &piso );
 	printf( "Ingrese el lugar en donde se encuentra el local: " );
 	scanf( "%d", &lugar );
+	try{
+		if( lugar  <= 0 || piso <= 0 )
+			throw "Error: Piso o lugar no puede ser menor o igual a 0";
+	}catch(const char* dato){
+		cout << dato << endl;
+		return;
+	}
 	mostrarLocal( pMatriz, fil, col, piso, lugar ); // Le manda los datos optenidos a la funcion
 }
 
@@ -144,8 +168,15 @@ void ingresarVenta( Local ** pMatriz, int fil, int col ){
 			if( strcmp( nombreBusqueda, pMatriz[ i ][ j ].nombreLocal ) == 0 ){ // Compara el nombre temporal con el nombre de local en la posicion i, j
 				printf( "Ingrese la venta realizada: " );
 				scanf( "%d", &venta );
-					if( venta >= condicion ){
-						retorna = promocion();
+				try{
+					if( venta  <= 0 )
+						throw "Error: La venta no puede ser negativo o igual a 0.";
+				}catch( const char* dato ){
+					cout << dato << endl;
+					ingresarVenta( pMatriz, fil, col );
+				}
+				if( venta >= condicion ){
+					retorna = promocion();
 						if(retorna == 1){
 							pMatriz[ i ][ j ].ventasLocal += 0;// No se le suma nada ya que no gano la promocion
 							return;

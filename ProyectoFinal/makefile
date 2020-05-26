@@ -1,7 +1,7 @@
 programa: Main.o FuncionesCC.o
-	gcc -o FuncionesCC Main.o FuncionesCC.o
-	a.exe list.txt
+	g++ -o FuncionesCC Main.o FuncionesCC.o
+	FuncionesCC.exe list.txt
 FuncionesCC.o: FuncionesCC.c
-	gcc -c FuncionesCC.c
+	g++ -c FuncionesCC.c
 Main.o: Main.c 
-	gcc -c Main.c
+	g++ -c Main.c
