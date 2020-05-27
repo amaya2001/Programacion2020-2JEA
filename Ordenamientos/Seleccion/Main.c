@@ -2,7 +2,7 @@
 
 int main(){
 
-	int lista[ ]={3, 4, 2, 1, 5};
+	int lista[ ]={ 3, 4, 2, 1, 5 };
 	int size = sizeof( lista ) / sizeof( int ), i;
 	
 	printf( "La lista Original: " );

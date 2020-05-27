@@ -1,6 +1,6 @@
 #include "Seleccion.h"
 
-int seleccion( int lista[ ], int tam){
+int seleccion( int lista[ ], int tam ){
 	int i, j, temp, min;
 
 	for( i = 0; i < tam; i++ ){
