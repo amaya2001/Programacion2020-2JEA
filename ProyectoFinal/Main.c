@@ -1,10 +1,11 @@
 #include "FuncionesCC.h"
 
 int main( int argc, char ** argv ){
-   if( argc != 2 ){ // Este condicional es para obligar al usuario a digitar el nombre del archivo.  
-      printf( "Esta mal!!!!\n" );
-      return 0;
-   }
+
+	if( argc != 2 ){ // Este condicional es para obligar al usuario a digitar el nombre del archivo.  
+      		printf( "Esta mal!!!!\n" );
+      		return 0;
+   	}
 	int opcion, filas = CAP, columnas = CAP;
 	setbuf( stdout, NULL ); //Limpia el buffer
 	Local ** pMatriz = NULL;// define el prototipo de matriz en NULL
@@ -18,9 +19,9 @@ int main( int argc, char ** argv ){
 			throw "Error: bad allocation ";
 	pMatriz = reservarMatriz( filas, columnas );
 	srand( time( NULL ) );// El procedimiento de apoya al rand()%
-	 
 	do{
   		opcion = mostrarMenu();
+		load( pMatriz, filas*columnas, argv[ 1 ]);
   		switch ( opcion ){
 			case 1: llenarMatriz( pMatriz, filas, columnas);// Llena la matriz con información proporcinada por el usuario y de manera aleatoria.  
 				break;

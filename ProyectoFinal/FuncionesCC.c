@@ -393,11 +393,11 @@ void save( Local ** pMatriz, int numLocales, char * fn ){// Guarda el contenido 
    	fwrite( pMatriz, sizeof( Local ), numLocales, f );
    	fclose( f );
 }
-
-void load( Local ** pMatriz, int numLocales, char * fn ){// Carga el contenido de la matriz anteriormente guardada en el archivo binario.  
+Local * load( Local ** pMatriz, int numLocales, char * fn ){// Carga el contenido de la matriz anteriormente guardada en el archivo binario.  
 
 	FILE * f = fopen(fn, "rb" );
-   	fread( pMatriz, sizeof( Local ), numLocales, f );
+   	fread( &pMatriz, sizeof( Local ), numLocales, f );
+	return *pMatriz;
    	fclose( f );
 }
 

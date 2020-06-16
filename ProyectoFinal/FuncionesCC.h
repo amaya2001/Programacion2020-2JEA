@@ -63,6 +63,6 @@ void  ArregloMatriz2( Local ** pMatriz, int fil, int col );
 
 void save( Local ** pMatriz, int numLocales, char * fn );
 
-void load( Local ** pMatriz, int numLocales, char * fn );
+Local * load( Local ** pMatriz, int numLocales, char * fn );
 
 int mostrarMenu();
