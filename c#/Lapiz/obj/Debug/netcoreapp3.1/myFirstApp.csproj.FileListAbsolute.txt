@@ -1,0 +1,13 @@
+C:\Users\sebas\Desktop\c#\myFirstApp\bin\Debug\netcoreapp3.1\myFirstApp.exe
+C:\Users\sebas\Desktop\c#\myFirstApp\bin\Debug\netcoreapp3.1\myFirstApp.deps.json
+C:\Users\sebas\Desktop\c#\myFirstApp\bin\Debug\netcoreapp3.1\myFirstApp.runtimeconfig.json
+C:\Users\sebas\Desktop\c#\myFirstApp\bin\Debug\netcoreapp3.1\myFirstApp.runtimeconfig.dev.json
+C:\Users\sebas\Desktop\c#\myFirstApp\bin\Debug\netcoreapp3.1\myFirstApp.dll
+C:\Users\sebas\Desktop\c#\myFirstApp\bin\Debug\netcoreapp3.1\myFirstApp.pdb
+C:\Users\sebas\Desktop\c#\myFirstApp\obj\Debug\netcoreapp3.1\myFirstApp.csprojAssemblyReference.cache
+C:\Users\sebas\Desktop\c#\myFirstApp\obj\Debug\netcoreapp3.1\myFirstApp.AssemblyInfoInputs.cache
+C:\Users\sebas\Desktop\c#\myFirstApp\obj\Debug\netcoreapp3.1\myFirstApp.AssemblyInfo.cs
+C:\Users\sebas\Desktop\c#\myFirstApp\obj\Debug\netcoreapp3.1\myFirstApp.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Desktop\c#\myFirstApp\obj\Debug\netcoreapp3.1\myFirstApp.dll
+C:\Users\sebas\Desktop\c#\myFirstApp\obj\Debug\netcoreapp3.1\myFirstApp.pdb
+C:\Users\sebas\Desktop\c#\myFirstApp\obj\Debug\netcoreapp3.1\myFirstApp.genruntimeconfig.cache

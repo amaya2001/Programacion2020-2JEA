@@ -1,0 +1,138 @@
+*
+{
+    margin: 0;
+    padding: 0;
+  
+}
+
+.header{
+    width: 100%;
+    height: 40vh;
+    background-color: #fdd835;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.MainWrapper
+{
+    width: 100%;
+    height: 60vh;   
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.MainWrapper form
+{
+    width: 100%;
+    height: 10px;
+    padding: 10px;
+    font-family: 'Castoro', serif;
+}
+
+.header h1
+{
+    font-family: 'Castoro', serif;
+    margin: 10px;
+}
+
+.MainWrapper table
+{
+    border-collapse: separate;
+    border-spacing: 15px 5px;
+}
+
+
+.controls
+{
+    width: 100%;
+    height: 100%;
+    font-size: 1.1rem;
+    padding: 5px;
+    border: none;
+    margin-bottom: 15px;
+    font-family: 'Castoro', serif;
+}
+
+
+.botons
+{
+    width: 100%;
+    height: 45px;
+    background: #ccd198;
+    font-size: 0.8rem;
+    border: none;
+    transition: all 0.1s linear;
+    font-family: 'Castoro', serif;
+    border-radius: 0.5em;
+}
+.botons:hover{
+    background-color:rgb(233, 236, 202) ;
+}
+
+.button-container{
+    width: 5%;
+    height: 10px;
+    border-radius: 0.5em;
+    border: none;
+    background-image: url("~/Pictures/carritoi-removebg-preview.png") ;
+}
+
+.button-container:hover{
+    background-color:rgb(233, 236, 202) ;
+}
+
+.words
+{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    font-family: 'Castoro', serif;
+}
+
+#Boton  
+{
+    width: 100%;
+    height: 45px;
+    background: rgb(180, 193, 236);
+    font-size: 1.2rem;
+    border: none;
+    transition: all 0.1s linear;
+    font-family: 'Castoro', serif;
+    color: white ;
+}
+
+.Hello
+{
+    width: 25%;
+    height: 45px;
+    background: #ccd198;
+    font-size: 0.8rem;
+    border: none;
+    transition: all 0.1s linear;
+    font-family: 'Castoro', serif;
+    border-radius: 0.5em;
+}
+
+.Hello:hover
+{
+    background-color:rgb(233, 236, 202) ;
+}
+
+
+.Hellos
+{
+    width: 25%;
+    height: 25px;
+    background: #ccd198;
+    font-size: 0.8rem;
+    border: none;
+    transition: all 0.1s linear;
+    font-family: 'Castoro', serif;
+    border-radius: 0.5em;
+}
+
+.Hellos:hover
+{
+    background-color:rgb(233, 236, 202) ;
+}

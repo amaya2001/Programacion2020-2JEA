@@ -3,7 +3,7 @@
 Local ** reservarMatriz(int fil, int col){
 	int i;
 
-        Local ** pMatriz = malloc(fil  * sizeof( Local* ));
+        zLocal ** pMatriz = malloc(fil  * sizeof( Local* ));
 	if( pMatriz != NULL ){
         	for( i=0; i < fil; i++ ){
                 	pMatriz[ i ] = malloc( col * sizeof( Local ) );// cada columna de la matriz dinamica va a ser un puntero de tamaño Local 

@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div#AutorWrapper
+{
+    height: 100vh;
+    background-color: darkgrey;
+}

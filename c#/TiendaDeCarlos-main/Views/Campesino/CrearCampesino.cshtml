@@ -1,0 +1,29 @@
+@model TiendaDeCarlos.Models.CampesinoModel
+
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport">
+        <link rel="stylesheet" href="~/css/CrearUsuarioStyle.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section id="Campesino">
+            <div class="NewUser">
+                <form asp-controller="Campesino" asp-action="CrearCampesinoDef"  method="POST">
+                    <div>
+                        <input class="controls" asp-for="Nombre" name="nombre" placeholder="Nombre" required>
+                        <input class="controls" asp-for="Apellido" name="apellido" placeholder="Apellido" required>
+                        <input class="controls" asp-for="Domicilio" name="domicilio" placeholder="Domicilio" required>
+                        <input class="controls" asp-for="Username" name="username" placeholder="Username" required>
+                        <input class="controls" asp-for="Contrasena" name="contrasena" type="password" placeholder="Contraseña" required>
+                    </div>
+                    <div>
+                        <input class="botons" type="submit" value="Registrarse">
+                    </div>   
+                </form>
+             </div>
+        </section>
+
+    </body>    
+</html>

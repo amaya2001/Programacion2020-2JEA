@@ -1,0 +1,13 @@
+C:\Users\sebas\Desktop\c#\ArrayForeach\bin\Debug\netcoreapp3.1\ArrayForeach.exe
+C:\Users\sebas\Desktop\c#\ArrayForeach\bin\Debug\netcoreapp3.1\ArrayForeach.deps.json
+C:\Users\sebas\Desktop\c#\ArrayForeach\bin\Debug\netcoreapp3.1\ArrayForeach.runtimeconfig.json
+C:\Users\sebas\Desktop\c#\ArrayForeach\bin\Debug\netcoreapp3.1\ArrayForeach.runtimeconfig.dev.json
+C:\Users\sebas\Desktop\c#\ArrayForeach\bin\Debug\netcoreapp3.1\ArrayForeach.dll
+C:\Users\sebas\Desktop\c#\ArrayForeach\bin\Debug\netcoreapp3.1\ArrayForeach.pdb
+C:\Users\sebas\Desktop\c#\ArrayForeach\obj\Debug\netcoreapp3.1\ArrayForeach.csprojAssemblyReference.cache
+C:\Users\sebas\Desktop\c#\ArrayForeach\obj\Debug\netcoreapp3.1\ArrayForeach.AssemblyInfoInputs.cache
+C:\Users\sebas\Desktop\c#\ArrayForeach\obj\Debug\netcoreapp3.1\ArrayForeach.AssemblyInfo.cs
+C:\Users\sebas\Desktop\c#\ArrayForeach\obj\Debug\netcoreapp3.1\ArrayForeach.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Desktop\c#\ArrayForeach\obj\Debug\netcoreapp3.1\ArrayForeach.dll
+C:\Users\sebas\Desktop\c#\ArrayForeach\obj\Debug\netcoreapp3.1\ArrayForeach.pdb
+C:\Users\sebas\Desktop\c#\ArrayForeach\obj\Debug\netcoreapp3.1\ArrayForeach.genruntimeconfig.cache

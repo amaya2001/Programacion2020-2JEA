@@ -1,0 +1,55 @@
+@model TiendaDeCarlos.Models.ClienteModel
+
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport">
+        <link rel="stylesheet" href="~/css/LoginStyle.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section id="pantallaNotWorking">
+            <div class="infoWrapper" style="background-image: url('/Pictures/collage-frutas.jpg'); width: 50%; height: 100vh;">
+                <div class="bonito">
+                    <h1>Tienda de Carlos</h1>
+                    <p>Esta empresa nació y creció debido a la emergencia</p>
+                    <p>sanitaria generada por el COVID-19. Pensamos cual </p>
+                    <p>sería la mejor solución para nuestro público. </p>
+                    <p>Nuestros clientes fieles nos escribían y aclamaban </p>
+                    <p>nuestros productos del campo; lo natural es mejor. </p>
+                    <p>Al principio los pedidos se hacían por redes sociales</p>
+                    <p>pero al ver que colapsaban, optamos por una página web </p>
+                    <p>donde los clientes pudieran visualizar nuestros productos </p>
+                    <p>y sus pedidos de estuvieran ordenados y lleváramos </p>
+                    <p>constancia de ellos. Así nació La Tienda Carlos y </p>
+                    <p>estamos orgullos de poder crecer y seguir entregando </p>
+                    <p>los mejores productos en este tiempo de incertidumbre.</p>
+                </div>
+            </div>  
+            <div class="MainWrapper">
+                <form asp-controller="Usuario" asp-action="Loginn"  method="POST">
+                    <label for=""></label>
+                    <div>
+                        <p>¡Ingresa a tu cuenta!</p>
+                        <label>
+                            <input class="controls" asp-for="Username" type="text" placeholder="Username" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                                <input class="controls" asp-for="Contrasena" type="password" placeholder="Contraseña" required>
+                            </label>
+                        </div>
+                        <a class ="words" asp-controller="Usuario" asp-action="NoPassword">¿Olvidaste tu contraseña?</a>
+                        <div>
+                            <input class="botons" type="submit" value="Ingresar">
+                        </div>
+                        <div>
+                            ¿Aún no tienes cuenta?
+                            <a class ="words" asp-controller="Usuario" asp-action="CrearUsuario">¡Creala!</a>
+                        </div>
+                    </form>
+                </div>
+            </section>
+    </body>    
+</html>

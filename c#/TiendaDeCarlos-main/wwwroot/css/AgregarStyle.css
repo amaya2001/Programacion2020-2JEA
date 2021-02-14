@@ -1,0 +1,63 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.NewUser
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffd740;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 0.5em;
+}
+
+.NewUser form
+{
+    margin: 1cm;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 60vh;
+    display: grid;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    box-shadow: -4px 4px 12px 1px rgba(0, 0, 0, 0.4);
+    border-radius: 0.5em;
+}
+
+.NewUser form a
+{
+    color: red;
+    text-align: center;
+}
+
+
+.controls
+{
+    width: 70%;
+    height: 30px;
+    font-size: 1.1rem;
+    padding: 5px;
+    border: none;
+    margin-bottom: 15px;
+    font-family: 'Castoro', serif;
+}
+
+.botons
+{
+    width: 100%;
+    height: 45px;
+    background: #ccd198;
+    font-size: 1.2rem;
+    border: none;
+    transition: all 0.1s linear;
+    font-family: 'Castoro', serif;
+    border-radius: 0.5em;
+}
+.botons:hover{
+    background-color:rgb(233, 236, 202) ;
+}

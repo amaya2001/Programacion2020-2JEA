@@ -1,0 +1,13 @@
+C:\Users\sebas\Desktop\c#\Herencia\bin\Debug\netcoreapp3.1\Herencia.exe
+C:\Users\sebas\Desktop\c#\Herencia\bin\Debug\netcoreapp3.1\Herencia.deps.json
+C:\Users\sebas\Desktop\c#\Herencia\bin\Debug\netcoreapp3.1\Herencia.runtimeconfig.json
+C:\Users\sebas\Desktop\c#\Herencia\bin\Debug\netcoreapp3.1\Herencia.runtimeconfig.dev.json
+C:\Users\sebas\Desktop\c#\Herencia\bin\Debug\netcoreapp3.1\Herencia.dll
+C:\Users\sebas\Desktop\c#\Herencia\bin\Debug\netcoreapp3.1\Herencia.pdb
+C:\Users\sebas\Desktop\c#\Herencia\obj\Debug\netcoreapp3.1\Herencia.csprojAssemblyReference.cache
+C:\Users\sebas\Desktop\c#\Herencia\obj\Debug\netcoreapp3.1\Herencia.AssemblyInfoInputs.cache
+C:\Users\sebas\Desktop\c#\Herencia\obj\Debug\netcoreapp3.1\Herencia.AssemblyInfo.cs
+C:\Users\sebas\Desktop\c#\Herencia\obj\Debug\netcoreapp3.1\Herencia.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Desktop\c#\Herencia\obj\Debug\netcoreapp3.1\Herencia.dll
+C:\Users\sebas\Desktop\c#\Herencia\obj\Debug\netcoreapp3.1\Herencia.pdb
+C:\Users\sebas\Desktop\c#\Herencia\obj\Debug\netcoreapp3.1\Herencia.genruntimeconfig.cache

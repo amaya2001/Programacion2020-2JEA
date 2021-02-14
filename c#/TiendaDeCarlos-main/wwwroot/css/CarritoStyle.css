@@ -1,0 +1,74 @@
+*
+{
+    margin: 0;
+    padding: 0;
+  
+}
+
+.view
+{
+    width: 50%;
+    height: 100vh;
+    background-color: #ffee58;
+}
+
+.view table
+{
+    align-items: center;
+    margin: 10%;
+    font-family: 'Castoro', serif;
+    border-collapse: separate;
+    border-spacing: 15px 5px;
+    text-align: center;
+}
+
+.view h1
+{
+    text-align: center;
+    align-items: center;
+    line-height: 500px
+}
+
+.pago
+{
+    width: 50%;
+    height: 50vh;
+    align-items: center;
+    margin-top: 10%;
+    font-family: 'Castoro', serif;
+    text-align: center;
+    padding: 40px;
+}
+
+.MainWrapper
+{
+    display: flex;
+}
+
+.pago button
+{
+    align-items: center;
+}
+
+
+.botons
+{
+    width: 50%;
+    height: 30px;
+    background: #fdd835;
+    font-size: 0.9rem;
+    border: none;
+    transition: all 0.1s linear;
+    border-radius: 0.5em;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    transition-duration: 0.2s;
+    margin: 25px;
+}
+
+.botons:hover
+{
+    padding: 20px;
+    background: #ffffff;
+    color: black;
+}

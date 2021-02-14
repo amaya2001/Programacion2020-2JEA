@@ -1,0 +1,1033 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 344 392 512 408)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "bitString[3..0]" (rect 5 0 71 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 328 416 512 432)
+	(text "INPUT" (rect 141 0 169 10)(font "Arial" (font_size 6)))
+	(text "bitStringOne[3..0]" (rect 5 0 91 12)(font "Arial" ))
+	(pt 184 8)
+	(drawing
+		(line (pt 100 12)(pt 125 12))
+		(line (pt 100 4)(pt 125 4))
+		(line (pt 129 8)(pt 184 8))
+		(line (pt 100 12)(pt 100 4))
+		(line (pt 125 4)(pt 129 8))
+		(line (pt 125 12)(pt 129 8))
+	)
+	(text "VCC" (rect 144 7 164 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 624 432 803 448)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "bitStringOut[6..0]" (rect 90 0 173 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(symbol
+	(rect 472 888 640 984)
+	(text "OneBitFA" (rect 5 0 59 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 80 25 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "A" (rect 0 0 9 14)(font "Arial" (font_size 8)))
+		(text "A" (rect 21 27 30 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "B" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "B" (rect 21 43 29 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "CARRY" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "CARRY" (rect 21 59 64 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 168 32)
+		(output)
+		(text "C" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "C" (rect 139 27 147 41)(font "Arial" (font_size 8)))
+		(line (pt 168 32)(pt 152 32))
+	)
+	(port
+		(pt 168 48)
+		(output)
+		(text "CARRYOUT" (rect 0 0 68 14)(font "Arial" (font_size 8)))
+		(text "CARRYOUT" (rect 79 43 147 57)(font "Arial" (font_size 8)))
+		(line (pt 168 48)(pt 152 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 152 80))
+	)
+)
+(symbol
+	(rect 472 992 640 1088)
+	(text "OneBitFA" (rect 5 0 59 14)(font "Arial" (font_size 8)))
+	(text "inst1" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "A" (rect 0 0 9 14)(font "Arial" (font_size 8)))
+		(text "A" (rect 21 27 30 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "B" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "B" (rect 21 43 29 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "CARRY" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "CARRY" (rect 21 59 64 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 168 32)
+		(output)
+		(text "C" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "C" (rect 139 27 147 41)(font "Arial" (font_size 8)))
+		(line (pt 168 32)(pt 152 32))
+	)
+	(port
+		(pt 168 48)
+		(output)
+		(text "CARRYOUT" (rect 0 0 68 14)(font "Arial" (font_size 8)))
+		(text "CARRYOUT" (rect 79 43 147 57)(font "Arial" (font_size 8)))
+		(line (pt 168 48)(pt 152 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 152 80))
+	)
+)
+(symbol
+	(rect 472 576 640 672)
+	(text "OneBitFA" (rect 5 0 59 14)(font "Arial" (font_size 8)))
+	(text "inst3" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "A" (rect 0 0 9 14)(font "Arial" (font_size 8)))
+		(text "A" (rect 21 27 30 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "B" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "B" (rect 21 43 29 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "CARRY" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "CARRY" (rect 21 59 64 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 168 32)
+		(output)
+		(text "C" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "C" (rect 139 27 147 41)(font "Arial" (font_size 8)))
+		(line (pt 168 32)(pt 152 32))
+	)
+	(port
+		(pt 168 48)
+		(output)
+		(text "CARRYOUT" (rect 0 0 68 14)(font "Arial" (font_size 8)))
+		(text "CARRYOUT" (rect 79 43 147 57)(font "Arial" (font_size 8)))
+		(line (pt 168 48)(pt 152 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 152 80))
+	)
+)
+(symbol
+	(rect 472 680 640 776)
+	(text "OneBitFA" (rect 5 0 59 14)(font "Arial" (font_size 8)))
+	(text "inst4" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "A" (rect 0 0 9 14)(font "Arial" (font_size 8)))
+		(text "A" (rect 21 27 30 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "B" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "B" (rect 21 43 29 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "CARRY" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "CARRY" (rect 21 59 64 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 168 32)
+		(output)
+		(text "C" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "C" (rect 139 27 147 41)(font "Arial" (font_size 8)))
+		(line (pt 168 32)(pt 152 32))
+	)
+	(port
+		(pt 168 48)
+		(output)
+		(text "CARRYOUT" (rect 0 0 68 14)(font "Arial" (font_size 8)))
+		(text "CARRYOUT" (rect 79 43 147 57)(font "Arial" (font_size 8)))
+		(line (pt 168 48)(pt 152 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 152 80))
+	)
+)
+(symbol
+	(rect 472 472 640 568)
+	(text "OneBitFA" (rect 5 0 59 14)(font "Arial" (font_size 8)))
+	(text "inst5" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "A" (rect 0 0 9 14)(font "Arial" (font_size 8)))
+		(text "A" (rect 21 27 30 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "B" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "B" (rect 21 43 29 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "CARRY" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "CARRY" (rect 21 59 64 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 168 32)
+		(output)
+		(text "C" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "C" (rect 139 27 147 41)(font "Arial" (font_size 8)))
+		(line (pt 168 32)(pt 152 32))
+	)
+	(port
+		(pt 168 48)
+		(output)
+		(text "CARRYOUT" (rect 0 0 68 14)(font "Arial" (font_size 8)))
+		(text "CARRYOUT" (rect 79 43 147 57)(font "Arial" (font_size 8)))
+		(line (pt 168 48)(pt 152 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 152 80))
+	)
+)
+(symbol
+	(rect 472 784 640 880)
+	(text "OneBitFA" (rect 5 0 59 14)(font "Arial" (font_size 8)))
+	(text "inst6" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "A" (rect 0 0 9 14)(font "Arial" (font_size 8)))
+		(text "A" (rect 21 27 30 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "B" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "B" (rect 21 43 29 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "CARRY" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "CARRY" (rect 21 59 64 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 168 32)
+		(output)
+		(text "C" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "C" (rect 139 27 147 41)(font "Arial" (font_size 8)))
+		(line (pt 168 32)(pt 152 32))
+	)
+	(port
+		(pt 168 48)
+		(output)
+		(text "CARRYOUT" (rect 0 0 68 14)(font "Arial" (font_size 8)))
+		(text "CARRYOUT" (rect 79 43 147 57)(font "Arial" (font_size 8)))
+		(line (pt 168 48)(pt 152 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 152 80))
+	)
+)
+(symbol
+	(rect 416 1184 448 1216)
+	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
+	(text "inst7" (rect 3 21 26 33)(font "Arial" )(invisible))
+	(port
+		(pt 16 0)
+		(output)
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(line (pt 16 8)(pt 16 0))
+	)
+	(drawing
+		(line (pt 8 8)(pt 16 16))
+		(line (pt 16 16)(pt 24 8))
+		(line (pt 8 8)(pt 24 8))
+	)
+)
+(symbol
+	(rect 776 472 944 568)
+	(text "OneBitFA" (rect 5 0 59 14)(font "Arial" (font_size 8)))
+	(text "inst10" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "A" (rect 0 0 9 14)(font "Arial" (font_size 8)))
+		(text "A" (rect 21 27 30 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "B" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "B" (rect 21 43 29 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "CARRY" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "CARRY" (rect 21 59 64 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 168 32)
+		(output)
+		(text "C" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "C" (rect 139 27 147 41)(font "Arial" (font_size 8)))
+		(line (pt 168 32)(pt 152 32))
+	)
+	(port
+		(pt 168 48)
+		(output)
+		(text "CARRYOUT" (rect 0 0 68 14)(font "Arial" (font_size 8)))
+		(text "CARRYOUT" (rect 79 43 147 57)(font "Arial" (font_size 8)))
+		(line (pt 168 48)(pt 152 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 152 80))
+	)
+)
+(symbol
+	(rect 776 576 944 672)
+	(text "OneBitFA" (rect 5 0 59 14)(font "Arial" (font_size 8)))
+	(text "inst9" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "A" (rect 0 0 9 14)(font "Arial" (font_size 8)))
+		(text "A" (rect 21 27 30 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "B" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "B" (rect 21 43 29 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "CARRY" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "CARRY" (rect 21 59 64 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 168 32)
+		(output)
+		(text "C" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "C" (rect 139 27 147 41)(font "Arial" (font_size 8)))
+		(line (pt 168 32)(pt 152 32))
+	)
+	(port
+		(pt 168 48)
+		(output)
+		(text "CARRYOUT" (rect 0 0 68 14)(font "Arial" (font_size 8)))
+		(text "CARRYOUT" (rect 79 43 147 57)(font "Arial" (font_size 8)))
+		(line (pt 168 48)(pt 152 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 152 80))
+	)
+)
+(symbol
+	(rect 776 680 944 776)
+	(text "OneBitFA" (rect 5 0 59 14)(font "Arial" (font_size 8)))
+	(text "inst8" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "A" (rect 0 0 9 14)(font "Arial" (font_size 8)))
+		(text "A" (rect 21 27 30 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "B" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "B" (rect 21 43 29 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "CARRY" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "CARRY" (rect 21 59 64 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 168 32)
+		(output)
+		(text "C" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "C" (rect 139 27 147 41)(font "Arial" (font_size 8)))
+		(line (pt 168 32)(pt 152 32))
+	)
+	(port
+		(pt 168 48)
+		(output)
+		(text "CARRYOUT" (rect 0 0 68 14)(font "Arial" (font_size 8)))
+		(text "CARRYOUT" (rect 79 43 147 57)(font "Arial" (font_size 8)))
+		(line (pt 168 48)(pt 152 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 152 80))
+	)
+)
+(symbol
+	(rect 776 888 944 984)
+	(text "OneBitFA" (rect 5 0 59 14)(font "Arial" (font_size 8)))
+	(text "inst11" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "A" (rect 0 0 9 14)(font "Arial" (font_size 8)))
+		(text "A" (rect 21 27 30 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "B" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "B" (rect 21 43 29 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "CARRY" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "CARRY" (rect 21 59 64 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 168 32)
+		(output)
+		(text "C" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "C" (rect 139 27 147 41)(font "Arial" (font_size 8)))
+		(line (pt 168 32)(pt 152 32))
+	)
+	(port
+		(pt 168 48)
+		(output)
+		(text "CARRYOUT" (rect 0 0 68 14)(font "Arial" (font_size 8)))
+		(text "CARRYOUT" (rect 79 43 147 57)(font "Arial" (font_size 8)))
+		(line (pt 168 48)(pt 152 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 152 80))
+	)
+)
+(symbol
+	(rect 776 992 944 1088)
+	(text "OneBitFA" (rect 5 0 59 14)(font "Arial" (font_size 8)))
+	(text "inst12" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "A" (rect 0 0 9 14)(font "Arial" (font_size 8)))
+		(text "A" (rect 21 27 30 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "B" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "B" (rect 21 43 29 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "CARRY" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "CARRY" (rect 21 59 64 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 168 32)
+		(output)
+		(text "C" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "C" (rect 139 27 147 41)(font "Arial" (font_size 8)))
+		(line (pt 168 32)(pt 152 32))
+	)
+	(port
+		(pt 168 48)
+		(output)
+		(text "CARRYOUT" (rect 0 0 68 14)(font "Arial" (font_size 8)))
+		(text "CARRYOUT" (rect 79 43 147 57)(font "Arial" (font_size 8)))
+		(line (pt 168 48)(pt 152 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 152 80))
+	)
+)
+(symbol
+	(rect 776 1096 944 1192)
+	(text "OneBitFA" (rect 5 0 59 14)(font "Arial" (font_size 8)))
+	(text "inst13" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "A" (rect 0 0 9 14)(font "Arial" (font_size 8)))
+		(text "A" (rect 21 27 30 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "B" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "B" (rect 21 43 29 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "CARRY" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "CARRY" (rect 21 59 64 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 168 32)
+		(output)
+		(text "C" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "C" (rect 139 27 147 41)(font "Arial" (font_size 8)))
+		(line (pt 168 32)(pt 152 32))
+	)
+	(port
+		(pt 168 48)
+		(output)
+		(text "CARRYOUT" (rect 0 0 68 14)(font "Arial" (font_size 8)))
+		(text "CARRYOUT" (rect 79 43 147 57)(font "Arial" (font_size 8)))
+		(line (pt 168 48)(pt 152 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 152 80))
+	)
+)
+(symbol
+	(rect 776 784 944 880)
+	(text "OneBitFA" (rect 5 0 59 14)(font "Arial" (font_size 8)))
+	(text "inst14" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "A" (rect 0 0 9 14)(font "Arial" (font_size 8)))
+		(text "A" (rect 21 27 30 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "B" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "B" (rect 21 43 29 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "CARRY" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "CARRY" (rect 21 59 64 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 168 32)
+		(output)
+		(text "C" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "C" (rect 139 27 147 41)(font "Arial" (font_size 8)))
+		(line (pt 168 32)(pt 152 32))
+	)
+	(port
+		(pt 168 48)
+		(output)
+		(text "CARRYOUT" (rect 0 0 68 14)(font "Arial" (font_size 8)))
+		(text "CARRYOUT" (rect 79 43 147 57)(font "Arial" (font_size 8)))
+		(line (pt 168 48)(pt 152 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 152 80))
+	)
+)
+(connector
+	(text "bitString[0]" (rect 456 800 509 812)(font "Arial" ))
+	(pt 472 816)
+	(pt 456 816)
+)
+(connector
+	(text "bitString[1]" (rect 456 696 509 708)(font "Arial" ))
+	(pt 472 712)
+	(pt 456 712)
+)
+(connector
+	(text "bitString[2]" (rect 456 592 509 604)(font "Arial" ))
+	(pt 472 608)
+	(pt 456 608)
+)
+(connector
+	(text "bitString[3]" (rect 456 488 509 500)(font "Arial" ))
+	(pt 472 504)
+	(pt 456 504)
+)
+(connector
+	(text "bitString[2]" (rect 456 816 509 828)(font "Arial" ))
+	(pt 472 832)
+	(pt 456 832)
+)
+(connector
+	(text "bitString[3]" (rect 456 712 509 724)(font "Arial" ))
+	(pt 472 728)
+	(pt 456 728)
+)
+(connector
+	(pt 472 1056)
+	(pt 432 1056)
+)
+(connector
+	(pt 472 952)
+	(pt 472 984)
+)
+(connector
+	(pt 640 1040)
+	(pt 648 1040)
+)
+(connector
+	(pt 648 1040)
+	(pt 648 984)
+)
+(connector
+	(pt 472 984)
+	(pt 648 984)
+)
+(connector
+	(pt 432 624)
+	(pt 472 624)
+)
+(connector
+	(pt 432 520)
+	(pt 432 624)
+)
+(connector
+	(pt 432 520)
+	(pt 472 520)
+)
+(connector
+	(pt 472 536)
+	(pt 472 568)
+)
+(connector
+	(pt 472 744)
+	(pt 472 776)
+)
+(connector
+	(pt 472 848)
+	(pt 472 880)
+)
+(connector
+	(pt 640 936)
+	(pt 648 936)
+)
+(connector
+	(pt 648 936)
+	(pt 648 880)
+)
+(connector
+	(pt 648 880)
+	(pt 472 880)
+)
+(connector
+	(pt 648 776)
+	(pt 648 832)
+)
+(connector
+	(pt 472 776)
+	(pt 648 776)
+)
+(connector
+	(pt 640 832)
+	(pt 648 832)
+)
+(connector
+	(pt 640 728)
+	(pt 648 728)
+)
+(connector
+	(pt 648 728)
+	(pt 648 672)
+)
+(connector
+	(pt 472 640)
+	(pt 472 672)
+)
+(connector
+	(pt 472 672)
+	(pt 648 672)
+)
+(connector
+	(pt 648 568)
+	(pt 472 568)
+)
+(connector
+	(pt 648 568)
+	(pt 648 624)
+)
+(connector
+	(pt 648 624)
+	(pt 640 624)
+)
+(connector
+	(text "bitString[1]" (rect 456 920 509 932)(font "Arial" ))
+	(pt 472 936)
+	(pt 456 936)
+)
+(connector
+	(pt 432 920)
+	(pt 472 920)
+)
+(connector
+	(pt 432 624)
+	(pt 432 920)
+)
+(connector
+	(text "bitString[0]" (rect 456 1024 509 1036)(font "Arial" ))
+	(pt 472 1040)
+	(pt 456 1040)
+)
+(connector
+	(pt 472 1024)
+	(pt 432 1024)
+)
+(connector
+	(pt 432 920)
+	(pt 432 1024)
+)
+(connector
+	(pt 432 1024)
+	(pt 432 1056)
+)
+(connector
+	(pt 640 504)
+	(pt 776 504)
+)
+(connector
+	(pt 640 608)
+	(pt 776 608)
+)
+(connector
+	(pt 640 712)
+	(pt 776 712)
+)
+(connector
+	(pt 640 816)
+	(pt 776 816)
+)
+(connector
+	(pt 640 920)
+	(pt 776 920)
+)
+(connector
+	(pt 640 1024)
+	(pt 776 1024)
+)
+(connector
+	(pt 776 536)
+	(pt 776 568)
+)
+(connector
+	(pt 776 640)
+	(pt 776 672)
+)
+(connector
+	(pt 776 744)
+	(pt 776 776)
+)
+(connector
+	(pt 776 848)
+	(pt 776 880)
+)
+(connector
+	(pt 776 952)
+	(pt 776 984)
+)
+(connector
+	(pt 776 1056)
+	(pt 776 1088)
+)
+(connector
+	(pt 952 1088)
+	(pt 776 1088)
+)
+(connector
+	(pt 952 1088)
+	(pt 952 1144)
+)
+(connector
+	(pt 952 1144)
+	(pt 944 1144)
+)
+(connector
+	(pt 952 984)
+	(pt 776 984)
+)
+(connector
+	(pt 952 984)
+	(pt 952 1040)
+)
+(connector
+	(pt 952 1040)
+	(pt 944 1040)
+)
+(connector
+	(pt 944 936)
+	(pt 952 936)
+)
+(connector
+	(pt 952 936)
+	(pt 952 880)
+)
+(connector
+	(pt 776 880)
+	(pt 952 880)
+)
+(connector
+	(pt 944 832)
+	(pt 952 832)
+)
+(connector
+	(pt 952 832)
+	(pt 952 776)
+)
+(connector
+	(pt 776 776)
+	(pt 952 776)
+)
+(connector
+	(pt 944 728)
+	(pt 952 728)
+)
+(connector
+	(pt 952 728)
+	(pt 952 672)
+)
+(connector
+	(pt 776 672)
+	(pt 952 672)
+)
+(connector
+	(pt 944 624)
+	(pt 952 624)
+)
+(connector
+	(pt 952 624)
+	(pt 952 568)
+)
+(connector
+	(pt 776 568)
+	(pt 952 568)
+)
+(connector
+	(pt 432 1160)
+	(pt 776 1160)
+)
+(connector
+	(pt 432 1160)
+	(pt 432 1184)
+)
+(connector
+	(pt 744 728)
+	(pt 776 728)
+)
+(connector
+	(pt 744 728)
+	(pt 744 1128)
+)
+(connector
+	(pt 776 520)
+	(pt 744 520)
+)
+(connector
+	(pt 744 624)
+	(pt 776 624)
+)
+(connector
+	(pt 744 520)
+	(pt 744 624)
+)
+(connector
+	(pt 744 624)
+	(pt 744 728)
+)
+(connector
+	(text "bitStringOut[0]" (rect 944 1112 1014 1124)(font "Arial" ))
+	(pt 944 1128)
+	(pt 968 1128)
+)
+(connector
+	(text "bitStringOut[1]" (rect 944 1008 1014 1020)(font "Arial" ))
+	(pt 944 1024)
+	(pt 968 1024)
+)
+(connector
+	(text "bitStringOut[2]" (rect 944 904 1014 916)(font "Arial" ))
+	(pt 968 920)
+	(pt 944 920)
+)
+(connector
+	(text "bitStringOut[3]" (rect 944 800 1014 812)(font "Arial" ))
+	(pt 944 816)
+	(pt 968 816)
+)
+(connector
+	(text "bitStringOut[4]" (rect 944 696 1014 708)(font "Arial" ))
+	(pt 944 712)
+	(pt 968 712)
+)
+(connector
+	(text "bitStringOut[5]" (rect 944 592 1014 604)(font "Arial" ))
+	(pt 944 608)
+	(pt 968 608)
+)
+(connector
+	(text "bitStringOut[6]" (rect 944 488 1014 500)(font "Arial" ))
+	(pt 944 504)
+	(pt 968 504)
+)
+(connector
+	(pt 432 1056)
+	(pt 432 1128)
+)
+(connector
+	(pt 432 1128)
+	(pt 432 1160)
+)
+(connector
+	(pt 432 1128)
+	(pt 744 1128)
+)
+(connector
+	(pt 744 1128)
+	(pt 776 1128)
+)
+(connector
+	(text "bitStringOne[0]" (rect 760 1128 833 1140)(font "Arial" ))
+	(pt 776 1144)
+	(pt 760 1144)
+)
+(connector
+	(text "bitStringOne[1]" (rect 760 1024 833 1036)(font "Arial" ))
+	(pt 776 1040)
+	(pt 760 1040)
+)
+(connector
+	(text "bitStringOne[2]" (rect 760 920 833 932)(font "Arial" ))
+	(pt 760 936)
+	(pt 776 936)
+)
+(connector
+	(text "bitStringOne[3]" (rect 760 816 833 828)(font "Arial" ))
+	(pt 776 832)
+	(pt 760 832)
+)
+(junction (pt 432 1056))
+(junction (pt 432 624))
+(junction (pt 432 920))
+(junction (pt 432 1024))
+(junction (pt 432 1160))
+(junction (pt 744 728))
+(junction (pt 744 624))
+(junction (pt 432 1128))
+(junction (pt 744 1128))

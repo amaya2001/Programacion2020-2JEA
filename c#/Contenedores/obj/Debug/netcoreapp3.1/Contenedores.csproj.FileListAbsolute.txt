@@ -1,0 +1,13 @@
+C:\Users\sebas\Desktop\c#\Contenedores\bin\Debug\netcoreapp3.1\Contenedores.exe
+C:\Users\sebas\Desktop\c#\Contenedores\bin\Debug\netcoreapp3.1\Contenedores.deps.json
+C:\Users\sebas\Desktop\c#\Contenedores\bin\Debug\netcoreapp3.1\Contenedores.runtimeconfig.json
+C:\Users\sebas\Desktop\c#\Contenedores\bin\Debug\netcoreapp3.1\Contenedores.runtimeconfig.dev.json
+C:\Users\sebas\Desktop\c#\Contenedores\bin\Debug\netcoreapp3.1\Contenedores.dll
+C:\Users\sebas\Desktop\c#\Contenedores\bin\Debug\netcoreapp3.1\Contenedores.pdb
+C:\Users\sebas\Desktop\c#\Contenedores\obj\Debug\netcoreapp3.1\Contenedores.csprojAssemblyReference.cache
+C:\Users\sebas\Desktop\c#\Contenedores\obj\Debug\netcoreapp3.1\Contenedores.AssemblyInfoInputs.cache
+C:\Users\sebas\Desktop\c#\Contenedores\obj\Debug\netcoreapp3.1\Contenedores.AssemblyInfo.cs
+C:\Users\sebas\Desktop\c#\Contenedores\obj\Debug\netcoreapp3.1\Contenedores.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Desktop\c#\Contenedores\obj\Debug\netcoreapp3.1\Contenedores.dll
+C:\Users\sebas\Desktop\c#\Contenedores\obj\Debug\netcoreapp3.1\Contenedores.pdb
+C:\Users\sebas\Desktop\c#\Contenedores\obj\Debug\netcoreapp3.1\Contenedores.genruntimeconfig.cache

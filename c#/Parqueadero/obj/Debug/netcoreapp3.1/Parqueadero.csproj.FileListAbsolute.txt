@@ -1,0 +1,13 @@
+C:\Users\sebas\Desktop\c#\Parqueadero\bin\Debug\netcoreapp3.1\Parqueadero.exe
+C:\Users\sebas\Desktop\c#\Parqueadero\bin\Debug\netcoreapp3.1\Parqueadero.deps.json
+C:\Users\sebas\Desktop\c#\Parqueadero\bin\Debug\netcoreapp3.1\Parqueadero.runtimeconfig.json
+C:\Users\sebas\Desktop\c#\Parqueadero\bin\Debug\netcoreapp3.1\Parqueadero.runtimeconfig.dev.json
+C:\Users\sebas\Desktop\c#\Parqueadero\bin\Debug\netcoreapp3.1\Parqueadero.dll
+C:\Users\sebas\Desktop\c#\Parqueadero\bin\Debug\netcoreapp3.1\Parqueadero.pdb
+C:\Users\sebas\Desktop\c#\Parqueadero\obj\Debug\netcoreapp3.1\Parqueadero.csprojAssemblyReference.cache
+C:\Users\sebas\Desktop\c#\Parqueadero\obj\Debug\netcoreapp3.1\Parqueadero.AssemblyInfoInputs.cache
+C:\Users\sebas\Desktop\c#\Parqueadero\obj\Debug\netcoreapp3.1\Parqueadero.AssemblyInfo.cs
+C:\Users\sebas\Desktop\c#\Parqueadero\obj\Debug\netcoreapp3.1\Parqueadero.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Desktop\c#\Parqueadero\obj\Debug\netcoreapp3.1\Parqueadero.dll
+C:\Users\sebas\Desktop\c#\Parqueadero\obj\Debug\netcoreapp3.1\Parqueadero.pdb
+C:\Users\sebas\Desktop\c#\Parqueadero\obj\Debug\netcoreapp3.1\Parqueadero.genruntimeconfig.cache

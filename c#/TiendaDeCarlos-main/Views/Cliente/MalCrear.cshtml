@@ -1,0 +1,46 @@
+@model TiendaDeCarlos.Models.ClienteModel
+
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport">
+        <link rel="stylesheet" href="~/css/CrearUsuarioStyle.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+            <div class="NewUser">
+                <form asp-controller="Cliente" asp-action="CrearClienteDef" method="POST">
+                    <div>
+                        <input class="controls" asp-for="Nombre" placeholder="Nombre" required>
+                        <input class="controls" asp-for="Apellido" placeholder="Apellido" required>
+                        <input class="controls" asp-for="Domicilio" placeholder="Domicilio" required>
+                        <input class="controls" asp-for="Username" placeholder="Username" required>
+                        <a>El username ya está en uso</a>
+                        <input class="controls" asp-for="Contrasena" type="password" placeholder="Contraseña" required>
+                    </div>
+                    <div>
+                        <p>Metodo de pago:
+                            <select id="testSelect" name="testSelect" asp-for="metodoPago">
+                                <option value="0">TarjetaCredito</option>
+                                <option value="1">PayPal</option>
+                                <option value="2">CuentaAhorros</option>
+                            </select>
+                            <asp:Button ID="btnTest" runat="server" Text="Test it!" onclick="btnTest_Click" />
+                        </p>
+                    </div>
+                    <div>
+                        <input class="botons" type="submit" value="Registrarse">
+                    </div>
+                    
+                </form>
+             </div>
+        <script>
+            function myFunction() 
+            {
+                var a = document.getElementById("metodo").value;
+            }
+        </script>
+
+    </body>    
+</html>

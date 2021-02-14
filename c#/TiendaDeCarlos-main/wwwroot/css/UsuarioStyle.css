@@ -1,0 +1,91 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.NewUser
+{
+    width: 50%;
+    height: 100vh;
+    background-color: #1191b8;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 0.5em;
+}
+
+.NewUser input
+{
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    display: grid;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    box-shadow: -4px 4px 12px 1px rgba(0, 0, 0, 0.4);
+    border-radius: 0.5em;
+}
+
+.NewCampesino
+{
+    width: 50%;
+    height: 100vh;
+    background-color: #c2b892;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 0.5em;
+}
+
+
+.NewCampesino input
+{
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    display: grid;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    box-shadow: -4px 4px 12px 1px rgba(0, 0, 0, 0.4);
+    border-radius: 0.5em;
+}
+
+#pantallaNotWorking form input
+{
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    display: grid;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    box-shadow: -4px 4px 12px 1px rgba(0, 0, 0, 0.4);
+    border-radius: 0.5em;
+}
+
+.controls
+{
+    width: 100%;
+    height: 45px;
+    font-size: 1.1rem;
+    padding: 5px;
+    border: none;
+    margin-bottom: 15px;
+    font-family: 'Castoro', serif;
+}
+
+.botons
+{
+    width: 100%;
+    height: 45px;
+    background: #f4ff81;
+    font-size: 1.2rem;
+    border: none;
+    transition: all 0.1s linear;
+    font-family: 'Castoro', serif;
+}
+
+#pantallaNotWorking 
+{
+    display: flex
+}
