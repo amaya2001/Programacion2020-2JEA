@@ -1,0 +1,51 @@
+@model List<ComprasModel>
+
+
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport">
+        <link rel="stylesheet" href="~/css/ClienteStyle.css" >
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <img src="~/Pictures/cs_preview_rev_1.png"   
+                    class="rounded-circle"   
+                    height="120" width="120"   
+                    asp-append-version="true" />  
+        </div>
+        <div class="MainWrapper">
+                <h2>COMPRAS</h2>
+                @if( Model.Count > 0 )
+                {
+                    <table>
+                    <thead>
+                        <tr>
+                            <th>Producto</th>
+                            <th>Fecha de Compra</th>
+                            <th>Cantidad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var compra in Model )
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => compra.NombreProducto)</td>
+                                <td> @Html.DisplayFor(modelItem => compra.Fecha)</td>
+                                <td>@Html.DisplayFor(modelItem => compra.Cantidad)</td>
+                            </tr>    
+                        }
+                    </tbody>
+                    </table> 
+                }
+                else
+                {
+                    <label for="">No ha empezado a comprar aún</label>
+                }
+                <form asp-controller="Cliente" asp-action="CasiHome" asp-route-IdCliente="@Model[0].IdCliente">
+                    <button class="botons" type="submit">Volver a la pagina anterior</button>
+                </form>
+        </div>
+    </body>    
+</html>

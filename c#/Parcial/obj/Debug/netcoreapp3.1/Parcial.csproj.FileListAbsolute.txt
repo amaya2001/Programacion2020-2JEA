@@ -1,0 +1,4 @@
+C:\Users\sebas\Desktop\c#\Parcial\obj\Debug\netcoreapp3.1\Parcial.csprojAssemblyReference.cache
+C:\Users\sebas\Desktop\c#\Parcial\obj\Debug\netcoreapp3.1\Parcial.AssemblyInfoInputs.cache
+C:\Users\sebas\Desktop\c#\Parcial\obj\Debug\netcoreapp3.1\Parcial.AssemblyInfo.cs
+C:\Users\sebas\Desktop\c#\Parcial\obj\Debug\netcoreapp3.1\Parcial.csproj.CoreCompileInputs.cache

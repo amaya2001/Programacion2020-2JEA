@@ -1,0 +1,53 @@
+@model TiendaDeCarlos.ViewModels.ProductoViewModel
+
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport">
+        <link rel="stylesheet" href="~/css/AgregarStyle.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section>
+            <div class="NewUser">
+                <form asp-controller="Producto" asp-action="AgregarProducto" method="POST" enctype="multipart/form-data">
+                    <div>
+                        <input class="controls" asp-for="@Model.Nombre" name="nombre" placeholder="Nombre" required>
+                    </div>
+
+                    <div>
+                        <input class="controls" asp-for="Precio" name="precio" placeholder="Precio" required>
+                    </div>
+
+                    <div class="form-group">  
+                        <input asp-for="ImagenName" accept="image/*" />
+                    <span asp-validation-for="ImagenName" class="text-danger"></span>  
+                    </div>
+                    <div>
+                        <p>Cantidad de producto que desea agregar:
+                            <select id="testSelect" name="testSelect" asp-for="Cantidad">
+                                <option value="10">10</option>
+                                <option value="20">20</option>
+                                <option value="30">30</option>
+                                <option value="40">40</option>
+                            </select>
+                            <asp:Button ID="btnTest" runat="server" Text="Test it!" onclick="btnTest_Click" />
+                        </p>
+                    </div>
+                    <div>
+                        <input class="botons" type="submit" value="Añadir Producto">
+                    </div>   
+                </form>
+             </div>
+        </section>
+        @section scripts{  
+                <script type="text/javascript">  
+                    // Add the following code if you want the name of the file appear on select  
+                    $(".custom-file-input").on("change", function () {  
+                        var fileName = $(this).val().split("\\").pop();  
+                        $(this).siblings(".custom-file-label").addClass("selected").html(fileName);  
+                    });  
+                </script>  
+            }
+    </body>    
+</html>

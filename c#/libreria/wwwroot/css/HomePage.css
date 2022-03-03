@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div#HomeWrapper
+{
+    height: 100vh;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-rows: 1fr 10fr;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+div#HomeWrapper header
+{
+    grid-row: 1/2;
+    grid-column: 1/3;
+    background-color: aqua;
+}
+
+div#HomeWrapper section
+{
+    grid-row: 2/3; 
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div#HomeWrapper section img
+{
+    width: 30em;
+}
+
+div#HomeWrapper section label
+{
+    font-size: 2em;
+    font-weight: 800;
+    margin-top: 2em;
+}
+
+div#HomeWrapper aside
+{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div#HomeWrapper aside p
+{
+
+    text-align: center;
+    font-size: 2.5em;
+    color: rgb(17, 0, 255);
+}
+
+div#HomeWrapper header ul
+{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    list-style: none;
+    flex-direction: row-reverse;
+    padding: 0em 1em;
+}
+
+div#HomeWrapper header ul li
+{
+    margin: 0em 1em ;
+}

@@ -1,0 +1,270 @@
+[
+    {
+        "nombre": "Francia",
+        "puntos": 1,
+        "goles": 0,
+        "asistencias": 0,
+        "jugadores": [
+            {
+                "nombre": "Griezmann",
+                "edad": 28,
+                "posicion": 1,
+                "ataque": 90.0,
+                "defensa": 55.0,
+                "goles": 10.0,
+                "asistencias": 2.0,
+                "TarjetasAmarillas": 0
+            },
+            {
+                "nombre": "Benzema",
+                "edad": 32,
+                "posicion": 3,
+                "ataque": 92.0,
+                "defensa": 40.0,
+                "goles": 20.0,
+                "asistencias": 1.0,
+                "TarjetasAmarillas": 0
+            },
+            {
+                "nombre": "Mbappe",
+                "edad": 21,
+                "posicion": 5,
+                "ataque": 95.0,
+                "defensa": 50.0,
+                "goles": 15.0,
+                "asistencias": 14.0,
+                "TarjetasAmarillas": 0
+            },
+            {
+                "nombre": "Dembelé",
+                "edad": 23,
+                "posicion": 9,
+                "ataque": 92.0,
+                "defensa": 45.0,
+                "goles": 12.0,
+                "asistencias": 17.0,
+                "TarjetasAmarillas": 0
+            }
+        ]
+    },
+    {
+        "nombre": "España",
+        "puntos": 0,
+        "goles": 0,
+        "asistencias": 0,
+        "jugadores": [
+            {
+                "nombre": "Ramos",
+                "edad": 33,
+                "posicion": 1,
+                "ataque": 60.0,
+                "defensa": 85.0,
+                "goles": 8.0,
+                "asistencias": 0.0,
+                "TarjetasAmarillas": 0
+            },
+            {
+                "nombre": "Fati",
+                "edad": 17,
+                "posicion": 8,
+                "ataque": 95.0,
+                "defensa": 40.0,
+                "goles": 10.0,
+                "asistencias": 12.0,
+                "TarjetasAmarillas": 0
+            },
+            {
+                "nombre": "Aspas",
+                "edad": 32,
+                "posicion": 7,
+                "ataque": 85.0,
+                "defensa": 55.0,
+                "goles": 5.0,
+                "asistencias": 5.0,
+                "TarjetasAmarillas": 0
+            },
+            {
+                "nombre": "Busquets",
+                "edad": 33,
+                "posicion": 5,
+                "ataque": 79.0,
+                "defensa": 85.0,
+                "goles": 2.0,
+                "asistencias": 3.0,
+                "TarjetasAmarillas": 0
+            }
+        ]
+    },
+    {
+        "nombre": "Colombia",
+        "puntos": 0,
+        "goles": 0,
+        "asistencias": 0,
+        "jugadores": [
+            {
+                "nombre": "Falcao",
+                "edad": 33,
+                "posicion": 1,
+                "ataque": 89.0,
+                "defensa": 50.0,
+                "goles": 9.0,
+                "asistencias": 2.0,
+                "TarjetasAmarillas": 0
+            },
+            {
+                "nombre": "James",
+                "edad": 29,
+                "posicion": 3,
+                "ataque": 97.0,
+                "defensa": 45.0,
+                "goles": 7.0,
+                "asistencias": 17.0,
+                "TarjetasAmarillas": 0
+            },
+            {
+                "nombre": "Ospina",
+                "edad": 31,
+                "posicion": 14,
+                "ataque": 40.0,
+                "defensa": 95.0,
+                "goles": 0.0,
+                "asistencias": 0.0,
+                "TarjetasAmarillas": 0
+            },
+            {
+                "nombre": "Mina",
+                "edad": 24,
+                "posicion": 3,
+                "ataque": 55.0,
+                "defensa": 89.0,
+                "goles": 4.0,
+                "asistencias": 0.0,
+                "TarjetasAmarillas": 0
+            }
+        ]
+    },
+    {
+        "nombre": "Argentina",
+        "puntos": 0,
+        "goles": 0,
+        "asistencias": 0,
+        "jugadores": [
+            {
+                "nombre": "Messi",
+                "edad": 33,
+                "posicion": 1,
+                "ataque": 99.0,
+                "defensa": 50.0,
+                "goles": 40.0,
+                "asistencias": 20.0,
+                "TarjetasAmarillas": 0
+            },
+            {
+                "nombre": "Aguero",
+                "edad": 32,
+                "posicion": 8,
+                "ataque": 90.0,
+                "defensa": 50.0,
+                "goles": 10.0,
+                "asistencias": 5.0,
+                "TarjetasAmarillas": 0
+            },
+            {
+                "nombre": "Acuña",
+                "edad": 24,
+                "posicion": 5,
+                "ataque": 75.0,
+                "defensa": 85.0,
+                "goles": 3.0,
+                "asistencias": 10.0,
+                "TarjetasAmarillas": 0
+            },
+            {
+                "nombre": "Dybala",
+                "edad": 25,
+                "posicion": 9,
+                "ataque": 90.0,
+                "defensa": 45.0,
+                "goles": 8.0,
+                "asistencias": 6.0,
+                "TarjetasAmarillas": 0
+            }
+        ]
+    },
+    {
+        "nombre": "Brazil",
+        "puntos": 0,
+        "goles": 0,
+        "asistencias": 0,
+        "jugadores": [
+            {
+                "nombre": "Ronaldinho",
+                "edad": 35,
+                "posicion": 1,
+                "ataque": 99.0,
+                "defensa": 80.0,
+                "goles": 150.0,
+                "asistencias": 200.0,
+                "TarjetasAmarillas": 0
+            },
+            {
+                "nombre": "Roberto Carlos",
+                "edad": 35,
+                "posicion": 12,
+                "ataque": 89.0,
+                "defensa": 98.0,
+                "goles": 150.0,
+                "asistencias": 189.0,
+                "TarjetasAmarillas": 0
+            }
+        ]
+    },
+    {
+        "nombre": "Alemania",
+        "puntos": 3,
+        "goles": 3,
+        "asistencias": 0,
+        "jugadores": [
+            {
+                "nombre": "Joshua",
+                "edad": 35,
+                "posicion": 2,
+                "ataque": 40.0,
+                "defensa": 56.0,
+                "goles": 1.0,
+                "asistencias": 32.0,
+                "TarjetasAmarillas": 0
+            },
+            {
+                "nombre": "Marck-Andre",
+                "edad": 32,
+                "posicion": 1,
+                "ataque": 25.0,
+                "defensa": 85.0,
+                "goles": 0.0,
+                "asistencias": 0.0,
+                "TarjetasAmarillas": 0
+            },
+            {
+                "nombre": "Kevin-Trap",
+                "edad": 25,
+                "posicion": 3,
+                "ataque": 35.0,
+                "defensa": 28.0,
+                "goles": 5.0,
+                "asistencias": 3.0,
+                "TarjetasAmarillas": 0
+            },
+            {
+                "nombre": "Kai Havertz",
+                "edad": 30,
+                "posicion": 56,
+                "ataque": 85.0,
+                "defensa": 69.0,
+                "goles": 18.0,
+                "asistencias": 32.0,
+                "TarjetasAmarillas": 0
+            }
+        ]
+    }
+]

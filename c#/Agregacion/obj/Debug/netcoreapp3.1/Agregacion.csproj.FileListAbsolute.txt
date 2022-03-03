@@ -1,0 +1,13 @@
+C:\Users\sebas\Desktop\c#\Agregacion\obj\Debug\netcoreapp3.1\Agregacion.csprojAssemblyReference.cache
+C:\Users\sebas\Desktop\c#\Agregacion\obj\Debug\netcoreapp3.1\Agregacion.AssemblyInfoInputs.cache
+C:\Users\sebas\Desktop\c#\Agregacion\obj\Debug\netcoreapp3.1\Agregacion.AssemblyInfo.cs
+C:\Users\sebas\Desktop\c#\Agregacion\obj\Debug\netcoreapp3.1\Agregacion.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Desktop\c#\Agregacion\bin\Debug\netcoreapp3.1\Agregacion.exe
+C:\Users\sebas\Desktop\c#\Agregacion\bin\Debug\netcoreapp3.1\Agregacion.deps.json
+C:\Users\sebas\Desktop\c#\Agregacion\bin\Debug\netcoreapp3.1\Agregacion.runtimeconfig.json
+C:\Users\sebas\Desktop\c#\Agregacion\bin\Debug\netcoreapp3.1\Agregacion.runtimeconfig.dev.json
+C:\Users\sebas\Desktop\c#\Agregacion\bin\Debug\netcoreapp3.1\Agregacion.dll
+C:\Users\sebas\Desktop\c#\Agregacion\bin\Debug\netcoreapp3.1\Agregacion.pdb
+C:\Users\sebas\Desktop\c#\Agregacion\obj\Debug\netcoreapp3.1\Agregacion.dll
+C:\Users\sebas\Desktop\c#\Agregacion\obj\Debug\netcoreapp3.1\Agregacion.pdb
+C:\Users\sebas\Desktop\c#\Agregacion\obj\Debug\netcoreapp3.1\Agregacion.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+D:\Escritorio\projects\ControlPanel\bin\Debug\netcoreapp3.1\ControlPanel.exe
+D:\Escritorio\projects\ControlPanel\bin\Debug\netcoreapp3.1\ControlPanel.deps.json
+D:\Escritorio\projects\ControlPanel\bin\Debug\netcoreapp3.1\ControlPanel.runtimeconfig.json
+D:\Escritorio\projects\ControlPanel\bin\Debug\netcoreapp3.1\ControlPanel.runtimeconfig.dev.json
+D:\Escritorio\projects\ControlPanel\bin\Debug\netcoreapp3.1\ControlPanel.dll
+D:\Escritorio\projects\ControlPanel\bin\Debug\netcoreapp3.1\ControlPanel.pdb
+D:\Escritorio\projects\ControlPanel\obj\Debug\netcoreapp3.1\ControlPanel.csprojAssemblyReference.cache
+D:\Escritorio\projects\ControlPanel\obj\Debug\netcoreapp3.1\ControlPanel.AssemblyInfoInputs.cache
+D:\Escritorio\projects\ControlPanel\obj\Debug\netcoreapp3.1\ControlPanel.AssemblyInfo.cs
+D:\Escritorio\projects\ControlPanel\obj\Debug\netcoreapp3.1\ControlPanel.csproj.CoreCompileInputs.cache
+D:\Escritorio\projects\ControlPanel\obj\Debug\netcoreapp3.1\ControlPanel.dll
+D:\Escritorio\projects\ControlPanel\obj\Debug\netcoreapp3.1\ControlPanel.pdb
+D:\Escritorio\projects\ControlPanel\obj\Debug\netcoreapp3.1\ControlPanel.genruntimeconfig.cache
